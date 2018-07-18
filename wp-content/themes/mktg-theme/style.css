@@ -17,7 +17,7 @@ Tags: two-columns, right-sidebar, custom-background, custom-menu, featured-image
 .leaflet-container.leaflet-touch-zoom,
 .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom,
 .leaflet-container.leaflet-touch-drag{
-	touch-action: auto !important;
+	touch-action: auto !important; /* mobile view drag will scroll the page */
 }
 
 .leaflet-control-zoom{
